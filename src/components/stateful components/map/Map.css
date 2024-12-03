@@ -1,0 +1,36 @@
+.map-container {
+  width: 90%;
+  height: 20vh;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.lightmode .map-container {
+  background-color: var(--light-mode-element);
+  box-shadow: var(--light-mode-boxshadow);
+}
+
+.lightmode .map-container:hover {
+  background-color: var(--light-mode-element-hover);
+  box-shadow: var(--light-mode-boxshadow-hover);
+}
+
+@media screen and (max-width: 1549px) {
+  .map-container {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  .map-container {
+    margin-top: 75px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .map-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

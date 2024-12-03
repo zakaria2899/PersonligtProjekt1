@@ -1,0 +1,31 @@
+button {
+  padding: 5px 20px 5px 20px;
+  margin-top: 50px;
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  cursor: pointer;
+}
+
+.lightmode button {
+  background-color: var(--light-mode-element);
+  box-shadow: var(--light-mode-boxshadow);
+}
+
+.lightmode button:hover {
+  box-shadow: var(--light-mode-boxshadowhover);
+  transition: 0.3s;
+}
+
+.darkmode button {
+  background-color: var(--dark-mode--element);
+  box-shadow: var(--dark-mode-boxshadow);
+  color: var(--dark-mode-text);
+}
+
+.darkmode button:hover {
+  box-shadow: var(--dark-mode-boxshadowhover);
+  transition: 0.3s;
+}

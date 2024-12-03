@@ -1,0 +1,13 @@
+.country-details {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigate-to-homepage-button-container {
+  height: auto;
+  width: 90%;
+}
